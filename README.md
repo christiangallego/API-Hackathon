@@ -1,3 +1,27 @@
+# React/Redux Budget Tracker
+
+See it live on 
+
+## Getting Started
+
+Clone this repository by running the following command in your terminal:
+
+#### `git clone git@github.com:christiangallego/Beach-Finder-San-Diego.git`
+
+Then download the project dependencies by running this command in your terminal:
+
+#### `npm install`
+
+Then:
+
+#### `npm run build`
+
+> `run build` has been modified to watch for changes.
+
+Finally, while in the project directory start the program with:
+
+#### `npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

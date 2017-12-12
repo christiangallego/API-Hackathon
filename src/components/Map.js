@@ -19,11 +19,8 @@ export class Map extends React.Component {
     return true;
   }
 
-  // GoogleMapReact renders the location of the map
-  // being passed from the <Map> as props
-  // AnyReactComponent passes down the marker information,
-  // which is stored in a function above and rerenders
-  // as a result
+  // GoogleMapReact renders the location of the map being passed from the <Map> as props
+  // AnyReactComponent passes down the marker information,which is stored in a function above and rerenders as a result
   render() {
     return (
       <div className="map" id="maps">
@@ -31,7 +28,6 @@ export class Map extends React.Component {
           center={this.props.beach.location}
           defaultZoom={this.props.zoom}
         >
-          
           <AnyReactComponent
             lat={this.props.beach.location[0]}
             lng={this.props.beach.location[1]}

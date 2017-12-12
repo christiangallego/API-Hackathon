@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import { Map } from './map.js';
-import './App.css';
-import './index.css';
-// import logo from './logo.svg';
-// import './logo_2.png';
+import { Map } from './Map.js';
+import '../index.css';
 
-const beaches = require("./data.json");
-// console.log(beaches);
+const beaches = require("../data.json");
 
 class App extends Component {
   constructor(props) {
@@ -33,7 +29,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <MainHeader /> */}
         <SecondHeader />
         <PrimaryContent />
         {/* <Beaches /> */}
@@ -55,19 +50,6 @@ class App extends Component {
   }
 }
 
-// class MainHeader extends Component {
-//   render() {
-//     return (
-//       <div id = "hello">
-//         <header className="main-header">
-//           <img src="./logo_2.png" height="20"/>
-//         </header >
-//       </div >
-//     )
-//   }
-// }
-
-
 class SecondHeader extends Component {
   render() {
     return (
@@ -81,7 +63,6 @@ class SecondHeader extends Component {
   }
 }
 
-
 class PrimaryContent extends Component {
   render() {
     return (
@@ -89,8 +70,8 @@ class PrimaryContent extends Component {
         <div className="primary-content t-border">
           <p className="intro">
             San Diego's beaches are some of the best in the world. Idealic weather, plenty of attractions, and clean, warm waters make
-            for the perfect mix! And the best part is that we've done the homework for you. Simply choose from our curated
-            list of beaches and surf spots in San Diego for an exact Maps location.
+            for the perfect mix! And the best part is that we've done the homework for you.. Simply choose from our curated
+            list of beaches and surf spots in San Diego to see the location on a map.
           </p>
           <a className="callout" href="#maps">Explore Beaches</a>
         </div>
@@ -113,11 +94,10 @@ class PrimaryContent extends Component {
 //   }
 // }
 
-
 class SecondaryContent extends Component {
   render() {
     return (
-      <option value={this.props.location}   className="callout-2" href="#maps">
+      <option value={this.props.location} className="callout-2" href="#maps">
         {this.props.name}
       </option>
     )
@@ -128,15 +108,10 @@ class Footer extends Component {
   render() {
     return (
       <footer className="main-footer">
-        <p>Origin Code Academy API Hackathon. Theme inspired by Team Treehouse CSS Basics.</p>
+        <p>Christian Gallego | 2017</p>
       </footer>
     )
   }
 }
 
 export default App;
-
-{/* <select onClick={this.handleBeach}>
-  <option className="callout-2" href="#maps">{this.props.name}
-  </option>
-</select> */}
