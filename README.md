@@ -1,6 +1,8 @@
-# React/Redux Budget Tracker
+# San Diego Beach Finder
 
-See it live on 
+My first personal project using React and connecting to 2 API: Google Maps and Spitcast.
+
+See it live: https://floating-gorge-44922.herokuapp.com/
 
 ## Getting Started
 
@@ -12,15 +14,15 @@ Then download the project dependencies by running this command in your terminal:
 
 #### `npm install`
 
-Then:
-
-#### `npm run build`
-
-> `run build` has been modified to watch for changes.
-
-Finally, while in the project directory start the program with:
+In the project directory, you can run:
 
 #### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will automatically reload if you make edits.<br>
+You will also see any lint errors in the console.<br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
