@@ -25,7 +25,7 @@ class App extends Component {
       }
     });
   }
-
+  
   render() {
     return (
       <div className="App">
@@ -79,20 +79,6 @@ class PrimaryContent extends Component {
     )
   }
 }
-
-// class Beaches extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <div className="beaches" id="middle">
-//           <div >
-//             <h3 id="beach-text">Let's have fun</h3>
-//           </div>
-//         </div>
-//       </div >
-//     )
-//   }
-// }
 
 class SecondaryContent extends Component {
   render() {
