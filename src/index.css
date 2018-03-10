@@ -1,11 +1,11 @@
 /* Web Fonts -------------------- */
 
 @font-face {
-  font-family: 'Abolition Regular';
-  src: url('abolition-regular-webfont.eot');
-  src: url('abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('abolition-regular-webfont.woff') format('woff'),
-       url('abolition-regular-webfont.ttf') format('truetype');
+  font-family: "Abolition Regular";
+  src: url("./font/abolition-regular-webfont.eot");
+  src: url("./font/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url("./font/abolition-regular-webfont.woff") format("woff"),
+       url("./font/abolition-regular-webfont.ttf") format("truetype");
 }
 
 /* Base Styles -------------------- */
